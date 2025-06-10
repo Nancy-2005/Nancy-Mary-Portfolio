@@ -1,11 +1,21 @@
 import React from 'react';
 
 // ProjectBox Component: Renders individual project details
-const ProjectBox = ({ projectName, projectDesc }) => {
+const ProjectBox = ({ projectName, projectDesc, githubLink }) => {
   return (
     <div className="projectBox">
       <h3>{projectName}</h3>
       <p>{projectDesc}</p>
+      {githubLink && (
+        <a
+          href={githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="githubLink"
+        >
+          GitHub Link
+        </a>
+      )}
     </div>
   );
 };
@@ -14,26 +24,29 @@ const ProjectBox = ({ projectName, projectDesc }) => {
 const Projects = () => {
   const projects = [
     {
-      projectName: 'Smart Vehicle Parking System',
+      projectName: 'Stock Maintenance System',
       projectDesc:
-        'Created a smart parking system that uses IoT devices and sensors to collect real-time data on parking lot occupancy and transmits this information to the cloud or local network.',
+        'Developed a stock management web application using Python and Flask to track, add, update, and delete inventory items efficiently. Integrated user-friendly interfaces for real-time inventory monitoring and streamlined product management.',
+      githubLink: 'https://github.com/Nancy-2005/Stock-maintenance', // Replace with your actual link
     },
     {
-      projectName: 'Simple Water Level Indicator',
+      projectName: 'Pay-Flow Payment Management App',
       projectDesc:
-        'Created a simple water level indicator circuit consisting of a transistor element and a buzzer which indicates the overflow of water or excessive water in the container. When the water reaches its maximum limit, it shows and blinks the LED with a buzzer sound to stop pouring or filling water.',
+        'Designed and developed a responsive mobile-first web application to manage payments, customers, subscriptions, and transfers using HTML, CSS, and JavaScript. Implemented dynamic content loading, interactive dashboards, and navigation with mock financial data to simulate a real-time user experience.',
+      githubLink: 'https://github.com/Nancy-2005/PayFlow', // Replace with your actual link
     },
   ];
 
   return (
     <div className="projectsSection">
-      <h2></h2>
+      <h2>Personal Projects</h2>
       <div className="projectsGrid">
         {projects.map((project, index) => (
           <ProjectBox
             key={index}
             projectName={project.projectName}
             projectDesc={project.projectDesc}
+            githubLink={project.githubLink}
           />
         ))}
       </div>

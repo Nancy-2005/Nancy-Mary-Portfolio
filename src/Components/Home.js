@@ -26,7 +26,7 @@ const Home = () => {
 
       <div className='AboutPage'>
         <div className='AboutText'>
-          <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
+          <h1 className='AboutTextHeading'>Brief <b>Introduction</b></h1>
           <p>
             I love the process of changing a raw idea into a website or a product 
             that impacts lives. 

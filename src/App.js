@@ -10,6 +10,8 @@ import Lottie from  "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
 import Project from './Components/ProjectBox'; // Adjust the path based on your project structure
+import Internship from './Components/Internship';
+
 
 
 
@@ -50,6 +52,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/About" element={<About/>}/>
+        <Route path="/Internship" element={<Internship />} />
         <Route path="/Project" element={<Project/>}/>
         <Route path="/Resume" element={<Resume/>}/>
       </Routes>
