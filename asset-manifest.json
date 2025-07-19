@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Nancy-Mary-Portfolio/static/css/main.aefd27a4.css",
+    "main.js": "/Nancy-Mary-Portfolio/static/js/main.28ad9f87.js",
+    "static/media/Resume.pdf": "/Nancy-Mary-Portfolio/static/media/Resume.ad59f8d02b24702a4592.pdf",
+    "index.html": "/Nancy-Mary-Portfolio/index.html",
+    "main.aefd27a4.css.map": "/Nancy-Mary-Portfolio/static/css/main.aefd27a4.css.map",
+    "main.28ad9f87.js.map": "/Nancy-Mary-Portfolio/static/js/main.28ad9f87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aefd27a4.css",
+    "static/js/main.28ad9f87.js"
+  ]
+}
