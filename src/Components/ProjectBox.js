@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 // ProjectBox Component: Renders individual project details
 const ProjectBox = ({ projectName, projectDesc, githubLink }) => {
@@ -26,14 +26,32 @@ const Projects = () => {
     {
       projectName: 'Stock Maintenance System',
       projectDesc:
-        'Developed a stock management web application using Python and Flask to track, add, update, and delete inventory items efficiently. Integrated user-friendly interfaces for real-time inventory monitoring and streamlined product management.',
-      githubLink: 'https://github.com/Nancy-2005/Stock-maintenance', // Replace with your actual link
+        'Developed a Flask-based web app for inventory management. Features include adding, updating, deleting, and searching stock items, with a user-friendly dashboard and MySQL backend for data persistence.',
+      githubLink: 'https://github.com/Nancy-2005/Stock-maintenance',
     },
     {
       projectName: 'Pay-Flow Payment Management App',
       projectDesc:
-        'Designed and developed a responsive mobile-first web application to manage payments, customers, subscriptions, and transfers using HTML, CSS, and JavaScript. Implemented dynamic content loading, interactive dashboards, and navigation with mock financial data to simulate a real-time user experience.',
-      githubLink: 'https://github.com/Nancy-2005/PayFlow', // Replace with your actual link
+        'Designed a mobile-first UI (React) for managing mock payments and subscriptions. Implemented responsive dashboards, charts, and transaction history to simulate fintech applications.',
+      githubLink: 'https://github.com/Nancy-2005/PayFlow',
+    },
+    {
+      projectName: 'Expense Tracker App',
+      projectDesc:
+        'Built a Python-Flask web app to track expenses by category and date. Integrated visual charts (Pie/Bar), monthly limit alerts, exportable PDF/Excel reports, and speech-to-expense input.',
+      githubLink: '', // Add your actual GitHub link if available
+    },
+    {
+      projectName: 'Bug Buster Game',
+      projectDesc:
+        'A browser-based debugging game created using HTML, CSS, and JavaScript. Includes multiple levels, countdown timer, animated failure effects, and motivational scoring.',
+      githubLink: '', // Add your actual GitHub link if available
+    },
+    {
+      projectName: 'Linux Tray Utility',
+      projectDesc:
+        'Python GTK application for Linux to manage power button events with a system tray interface, improving system usability for laptop users.',
+      githubLink: '', // Add your actual GitHub link if available
     },
   ];
 
@@ -53,5 +71,4 @@ const Projects = () => {
     </div>
   );
 };
-
 export default Projects;

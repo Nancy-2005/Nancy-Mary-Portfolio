@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.13589975.css",
-    "main.js": "/static/js/main.d4f4cfad.js",
-    "static/media/Resume.pdf": "/static/media/Resume.a78791fbd622bd918a41.pdf",
-    "index.html": "/index.html",
-    "main.13589975.css.map": "/static/css/main.13589975.css.map",
-    "main.d4f4cfad.js.map": "/static/js/main.d4f4cfad.js.map"
+    "main.css": "/Nancy-Mary-Portfolio/static/css/main.13589975.css",
+    "main.js": "/Nancy-Mary-Portfolio/static/js/main.aa60d10c.js",
+    "static/media/Resume.pdf": "/Nancy-Mary-Portfolio/static/media/Resume.a78791fbd622bd918a41.pdf",
+    "index.html": "/Nancy-Mary-Portfolio/index.html",
+    "main.13589975.css.map": "/Nancy-Mary-Portfolio/static/css/main.13589975.css.map",
+    "main.aa60d10c.js.map": "/Nancy-Mary-Portfolio/static/js/main.aa60d10c.js.map"
   },
   "entrypoints": [
     "static/css/main.13589975.css",
-    "static/js/main.d4f4cfad.js"
+    "static/js/main.aa60d10c.js"
   ]
 }
